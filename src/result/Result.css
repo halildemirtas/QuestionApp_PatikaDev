@@ -1,0 +1,50 @@
+
+
+.result-container {
+    width: 40%;
+    min-width: 650px;
+    padding: 20px;
+    background-image: linear-gradient(
+      rgb(0, 68, 255) 20%,
+      rgba(255, 166, 0, 0.8) 80% );
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.50);
+    margin-top: 20%;
+  
+  }
+  
+  .score-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .results, .score {
+    flex: 1;
+  }
+  
+  .header {
+      text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  .result {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .total {
+      text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .result-list {
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+  }
+  
